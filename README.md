@@ -2,7 +2,13 @@
 
 ## End-to-End Data Engineering Project
 
-DataCareer Insights is an end-to-end Data Engineering project that analyzes global Data Science and Data Engineering salary trends. The project demonstrates the complete data engineering lifecycle, including data extraction, cleaning, database integration, SQL analytics, automated reporting, and business intelligence dashboarding.
+DataCareer Insights is an end-to-end Data Engineering project that analyzes global Data Science, Analytics, and Data Engineering salary trends. The project demonstrates the complete data engineering lifecycle, including data extraction, cleaning, database integration, SQL analytics, automated reporting, and business intelligence dashboarding using Power BI.
+
+---
+
+## 📊 Dashboard Preview
+
+![Dashboard](screenshots/images/dashboard.png)
 
 ---
 
@@ -66,6 +72,7 @@ DataCareer-Insights/
 ├── dashboard/
 ├── docs/
 ├── screenshots/
+│   └── dashboard.png
 ├── README.md
 ├── requirements.txt
 └── .gitignore
@@ -117,6 +124,37 @@ The dataset was cleaned and transformed using Python and Pandas.
 
 ---
 
+## 📈 SQL Analytics Performed
+
+The project includes analytical SQL queries for:
+
+* Highest Paying Job Titles
+* Salary by Experience Level
+* Remote Work Distribution
+* Company Size Analysis
+
+---
+
+## 📊 Power BI Dashboard Features
+
+The dashboard provides an interactive view of global data job market trends.
+
+### KPI Cards
+
+* Total Jobs
+* Average Salary
+* Remote Jobs
+* Medium Companies
+
+### Visualizations
+
+* Salary Growth by Experience Level
+* Work Mode Distribution (Remote, Hybrid, Onsite)
+* Company Size Distribution
+* Key Business Insights
+
+---
+
 ## 📊 Key Business Insights
 
 ### Top Paying Roles
@@ -151,37 +189,14 @@ The dataset was cleaned and transformed using Python and Pandas.
 
 ---
 
-## 📈 SQL Analytics Performed
+## 🎯 Project Highlights
 
-The project includes analytical SQL queries for:
-
-* Highest Paying Job Titles
-* Salary by Experience Level
-* Remote Work Distribution
-* Company Size Analysis
-
----
-
-## 📊 Power BI Dashboard
-
-Dashboard development is in progress.
-
-Planned Visualizations:
-
-* KPI Cards
-
-  * Total Jobs
-  * Average Salary
-  * Remote Work Percentage
-  * Highest Paying Role
-
-* Top Paying Roles Analysis
-
-* Salary by Experience Level
-
-* Remote vs Hybrid vs Onsite Distribution
-
-* Company Size Distribution
+* Processed and analyzed 565 real-world job records
+* Built an automated ETL pipeline using Python and PostgreSQL
+* Developed SQL-based analytical reports
+* Created an interactive Power BI dashboard for business insights
+* Implemented Git and GitHub version control
+* Generated actionable insights from real-world salary data
 
 ---
 
@@ -190,10 +205,12 @@ Planned Visualizations:
 * Data Engineering
 * ETL Development
 * Data Cleaning
+* Data Transformation
 * SQL Query Optimization
 * PostgreSQL Database Management
 * Data Analysis
 * Business Intelligence
+* Power BI Dashboard Development
 * Git Version Control
 * GitHub Collaboration
 
@@ -211,9 +228,11 @@ Planned Visualizations:
 
 ✅ SQL Analytics
 
+✅ Power BI Dashboard
+
 ✅ GitHub Deployment
 
-🔄 Power BI Dashboard Development
+✅ Documentation
 
 ---
 
