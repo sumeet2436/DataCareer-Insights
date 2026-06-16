@@ -6,10 +6,15 @@ DataCareer Insights is an end-to-end Data Engineering project that analyzes glob
 
 ---
 
-## 📊 Dashboard Preview
+## Dashboard Preview
 
-![Dashboard](screenshots/images/dashboard.png)
+### Executive Dashboard
 
+![Executive Dashboard](screenshots/images/executive_dashboard.png)
+
+### Geographic Analysis
+
+![Geographic Analysis](screenshots/images/geographic_analysis.png)
 ---
 
 ## 📌 Project Objectives
