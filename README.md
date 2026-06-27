@@ -1,50 +1,59 @@
+<div align="center">
+
 # 🚀 DataCareer Insights
 
-## End-to-End Data Engineering Project
+### End-to-End Data Engineering Project
 
-DataCareer Insights is an end-to-end Data Engineering project that analyzes global Data Science, Analytics, and Data Engineering salary trends. The project demonstrates the complete data engineering lifecycle, including data extraction, cleaning, database integration, SQL analytics, automated reporting, and business intelligence dashboarding using Power BI.
+Analyze • Transform • Store • Visualize • Generate Insights
 
----
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-Database-orange?style=for-the-badge)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-## Dashboard Preview
-
-### Executive Dashboard
-
-![Executive Dashboard](screenshots/images/executive_dashboard.png)
-
-### Geographic Analysis
-
-![Geographic Analysis](screenshots/images/geographic_analysis.png)
----
-
-## 📌 Project Objectives
-
-This project aims to answer key questions in the Data job market:
-
-* Which data roles offer the highest salaries?
-* How does experience level impact compensation?
-* What percentage of jobs are remote, hybrid, or onsite?
-* How does company size affect job opportunities?
-* What insights can job seekers gain from salary trends?
+</div>
 
 ---
 
-## 🛠️ Technology Stack
+# 📖 Overview
 
-| Category              | Tools                |
-| --------------------- | -------------------- |
-| Programming           | Python               |
-| Data Processing       | Pandas               |
-| Database              | PostgreSQL           |
+**DataCareer Insights** is an **End-to-End Data Engineering Project** that analyzes global **Data Science, Analytics, and Data Engineering salary trends**.
+
+The project demonstrates the complete Data Engineering workflow by extracting, cleaning, transforming, loading, and analyzing real-world datasets using **Python**, **PostgreSQL**, **SQL**, and **Power BI**.
+
+It showcases practical skills in **ETL development**, **database management**, **SQL analytics**, and **business intelligence reporting**.
+
+---
+
+# 🎯 Project Objectives
+
+This project answers key business questions, including:
+
+- Which Data roles offer the highest salaries?
+- How does experience level impact compensation?
+- What percentage of jobs are Remote, Hybrid, and Onsite?
+- How does company size affect hiring?
+- What insights can job seekers gain from salary trends?
+
+---
+
+# 🛠 Technology Stack
+
+| Category | Technologies |
+|-----------|--------------|
+| Programming | Python |
+| Data Processing | Pandas |
+| Database | PostgreSQL |
 | Database Connectivity | SQLAlchemy, Psycopg2 |
-| Query Language        | SQL                  |
-| Version Control       | Git                  |
-| Repository Hosting    | GitHub               |
-| Visualization         | Power BI             |
+| Query Language | SQL |
+| Visualization | Power BI |
+| Version Control | Git & GitHub |
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
 DataCareer-Insights/
@@ -63,21 +72,23 @@ DataCareer-Insights/
 │   ├── remote_analysis.csv
 │   └── company_size_analysis.csv
 │
+├── dashboard/
+│
+├── docs/
+│
 ├── etl/
 │   ├── load_data.py
 │   ├── clean_data.py
 │   ├── load_to_postgres.py
 │   └── test_db_connection.py
 │
+├── screenshots/
+│
 ├── sql/
 │   ├── top_paying_jobs.sql
 │   ├── salary_by_experience.sql
-│   └── remote_work_analysis.sql
+│   ├── remote_work_analysis.sql
 │
-├── dashboard/
-├── docs/
-├── screenshots/
-│   └── dashboard.png
 ├── README.md
 ├── requirements.txt
 └── .gitignore
@@ -85,166 +96,198 @@ DataCareer-Insights/
 
 ---
 
-## 🔄 ETL Pipeline Architecture
+# 🔄 ETL Pipeline Architecture
 
 ```text
-Raw CSV Dataset
-        ↓
-Python (Pandas)
-        ↓
-Data Cleaning & Validation
-        ↓
-PostgreSQL Database
-        ↓
-SQL Analytics
-        ↓
-Automated CSV Reports
-        ↓
-Power BI Dashboard
-        ↓
-Business Insights
+                     Raw CSV Dataset
+                            │
+                            ▼
+                 Python (Pandas ETL)
+                            │
+                            ▼
+             Data Cleaning & Validation
+                            │
+                            ▼
+                  PostgreSQL Database
+                            │
+                            ▼
+                    SQL Analytics Layer
+                            │
+                            ▼
+                 Automated CSV Reports
+                            │
+                            ▼
+                  Power BI Dashboard
+                            │
+                            ▼
+                    Business Insights
 ```
 
 ---
 
-## 🧹 Data Cleaning Process
+# 📊 Dashboard Preview
 
-The dataset was cleaned and transformed using Python and Pandas.
+## Executive Dashboard
+
+<p align="center">
+<img src="screenshots/images/executive_dashboard.png" width="95%">
+</p>
+
+---
+
+## Geographic Analysis
+
+<p align="center">
+<img src="screenshots/images/geographic_analysis.png" width="95%">
+</p>
+
+---
+
+# 🧹 Data Cleaning Process
+
+The dataset was cleaned and transformed using **Python** and **Pandas**.
 
 ### Cleaning Activities
 
-* Removed unnecessary columns
-* Removed duplicate records
-* Validated missing values
-* Standardized dataset structure
-* Prepared analytical dataset for PostgreSQL
+- Removed unnecessary columns
+- Removed duplicate records
+- Validated missing values
+- Standardized dataset structure
+- Prepared analytical dataset for PostgreSQL
 
 ### Dataset Statistics
 
-| Description      | Count |
-| ---------------- | ----- |
-| Original Records | 607   |
-| Cleaned Records  | 565   |
-| Removed Records  | 42    |
+| Description | Count |
+|------------|------:|
+| Original Records | 607 |
+| Cleaned Records | 565 |
+| Removed Records | 42 |
 
 ---
 
-## 📈 SQL Analytics Performed
+# 📈 SQL Analytics
 
-The project includes analytical SQL queries for:
+The project includes SQL queries for:
 
-* Highest Paying Job Titles
-* Salary by Experience Level
-* Remote Work Distribution
-* Company Size Analysis
+- Highest Paying Job Titles
+- Salary by Experience Level
+- Remote Work Distribution
+- Company Size Analysis
 
 ---
 
-## 📊 Power BI Dashboard Features
+# 📊 Power BI Dashboard
 
-The dashboard provides an interactive view of global data job market trends.
+The interactive dashboard provides insights into the global Data job market.
 
 ### KPI Cards
 
-* Total Jobs
-* Average Salary
-* Remote Jobs
-* Medium Companies
+- Total Jobs
+- Average Salary
+- Remote Jobs
+- Medium Companies
 
 ### Visualizations
 
-* Salary Growth by Experience Level
-* Work Mode Distribution (Remote, Hybrid, Onsite)
-* Company Size Distribution
-* Key Business Insights
+- Salary Growth by Experience Level
+- Work Mode Distribution
+- Company Size Distribution
+- Key Business Insights
 
 ---
 
-## 📊 Key Business Insights
+# 📊 Key Business Insights
 
-### Top Paying Roles
+## 💰 Top Paying Roles
 
-| Rank | Job Title                | Average Salary (USD) |
-| ---- | ------------------------ | -------------------- |
-| 1    | Principal Data Engineer  | 328,333              |
-| 2    | Financial Data Analyst   | 275,000              |
-| 3    | Principal Data Scientist | 215,242              |
-| 4    | Director of Data Science | 195,074              |
-| 5    | Data Architect           | 177,874              |
+| Rank | Job Title | Average Salary (USD) |
+|------|----------------------------|----------------:|
+| 1 | Principal Data Engineer | 328,333 |
+| 2 | Financial Data Analyst | 275,000 |
+| 3 | Principal Data Scientist | 215,242 |
+| 4 | Director of Data Science | 195,074 |
+| 5 | Data Architect | 177,874 |
 
-### Remote Work Analysis
+---
 
-| Work Type | Jobs |
-| --------- | ---- |
-| Remote    | 346  |
-| Hybrid    | 98   |
-| Onsite    | 121  |
+## 🌍 Remote Work Distribution
 
-**Insight:** More than 61% of jobs in the dataset were fully remote.
+| Work Mode | Jobs |
+|-----------|----:|
+| Remote | 346 |
+| Hybrid | 98 |
+| Onsite | 121 |
 
-### Company Size Analysis
+**Insight:** More than **61%** of jobs in the dataset were fully remote.
+
+---
+
+## 🏢 Company Size Analysis
 
 | Company Size | Jobs |
-| ------------ | ---- |
-| Medium       | 290  |
-| Large        | 193  |
-| Small        | 82   |
+|--------------|----:|
+| Medium | 290 |
+| Large | 193 |
+| Small | 82 |
 
 **Insight:** Medium-sized companies posted the highest number of job opportunities.
 
 ---
 
-## 🎯 Project Highlights
+# 🎯 Project Highlights
 
-* Processed and analyzed 565 real-world job records
-* Built an automated ETL pipeline using Python and PostgreSQL
-* Developed SQL-based analytical reports
-* Created an interactive Power BI dashboard for business insights
-* Implemented Git and GitHub version control
-* Generated actionable insights from real-world salary data
-
----
-
-## 🏆 Skills Demonstrated
-
-* Data Engineering
-* ETL Development
-* Data Cleaning
-* Data Transformation
-* SQL Query Optimization
-* PostgreSQL Database Management
-* Data Analysis
-* Business Intelligence
-* Power BI Dashboard Development
-* Git Version Control
-* GitHub Collaboration
+- Processed and analyzed **565** real-world job records.
+- Built an automated **ETL pipeline** using Python and PostgreSQL.
+- Developed SQL-based analytical reports for business insights.
+- Created an interactive **Power BI Dashboard**.
+- Implemented Git and GitHub for version control.
+- Generated meaningful insights from real-world salary data.
 
 ---
 
-## 📌 Project Status
+# 🚀 How to Run
 
-✅ Data Extraction
+```bash
+# Clone the repository
+git clone https://github.com/sumeet2436/DataCareer-Insights.git
 
-✅ Data Cleaning
+# Navigate to project folder
+cd DataCareer-Insights
 
-✅ PostgreSQL Integration
+# Install dependencies
+pip install -r requirements.txt
 
-✅ Data Loading
+# Run ETL scripts
+python etl/load_data.py
 
-✅ SQL Analytics
-
-✅ Power BI Dashboard
-
-✅ GitHub Deployment
-
-✅ Documentation
+# Run analytics
+python analytics/top_paying_jobs.py
+```
 
 ---
 
-## 👨‍💻 Author
+# 📌 Future Improvements
 
-**Sumeet Gupta**
+- Apache Airflow integration
+- Docker containerization
+- Live dashboard deployment
+- Automated ETL scheduling
+- Cloud database integration
 
-Aspiring Data Engineer | Python Developer | SQL Enthusiast
+---
 
-GitHub: https://github.com/sumeet2436
+# 👨‍💻 Author
+
+## Sumeet Gupta
+
+**Data Engineer | Python | SQL | PostgreSQL | Power BI**
+
+💻 GitHub: https://github.com/sumeet2436
+
+🏆 HackerRank: https://www.hackerrank.com/profile/sumeetgupta921
+
+💼 LinkedIn: https://linkedin.com/in/sumeet-gupta-3a2494369
+
+---
+
+⭐ If you found this project useful, consider giving it a **Star** on GitHub.
